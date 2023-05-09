@@ -6,6 +6,17 @@ module.exports = {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    fontFamily: {
+      alcanica: ['Aclonica', 'sans-serif'],
+      athiti: ['Athiti', 'sans-serif']
+    },
+    colors: {
+      black: "#000000",
+      white: "#ffffff",
+      brand: "#FCFF75",
+      market: "#8662D3",
+      green: "#3FF101",
+    },
     extend: {
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
